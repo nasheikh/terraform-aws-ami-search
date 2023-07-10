@@ -4,7 +4,7 @@
 
 ```hcl
 module "ami-search" {
-  source  = ""
+  source  = "git::https://github.com/nasheikh/terraform-aws-ami-search.git"
   os = "centos-7"
 }
 ```
