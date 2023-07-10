@@ -2,7 +2,7 @@
 
 # How to use?
 
-hcl```
+```hcl
 module "ami-search" {
   source  = ""
   os = "centos-7"
