@@ -29,6 +29,7 @@ variable "amis_os_map_regex" {
     fedora-27            = "Fedora-Cloud-Base-27-.*-gp2.*"
     amazon-1_lts         = "amzn-ami-hvm-.*x86_64-gp2"
     amazon-2_lts         = "amzn2-ami-hvm-.*x86_64-gp2"
+    al2023               = "al2023-ami-2023.*"
     suse-15              = "suse-sles-15-sp\\d-v\\d{8}-hvm-ssd-x86_64"
     suse-12              = "suse-sles-12-sp\\d-v\\d{8}-hvm-ssd-x86_64"
   }
@@ -57,6 +58,7 @@ variable "amis_os_map_owners" {
     fedora-27            = "125523088429" #Fedora
     amazon-1_lts         = "137112412989" #amazon
     amazon-2_lts         = "137112412989" #amazon
+    al2023               = "137112412989"
     suse-15              = "013907871322" #amazon
     suse-12              = "013907871322" #amazon
   }
